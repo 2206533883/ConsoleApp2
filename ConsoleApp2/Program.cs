@@ -52,6 +52,7 @@ namespace ConsoleApp2
                     }
                 }
             }
+            //aaa
             List<KeyValuePair<string, int>> lst = new List<KeyValuePair<string, int>>(fdic);
             lst.Sort(delegate (KeyValuePair<string, int> s1, KeyValuePair<string, int> s2)
             {
