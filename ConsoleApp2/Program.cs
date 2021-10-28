@@ -22,7 +22,6 @@ namespace ConsoleApp2
                 Console.WriteLine(lst[i].Key + ":" + lst[i].Value);
             }
             stopwatch.Stop();
-            //test
             Console.WriteLine("running:{0}", stopwatch.Elapsed);
         }
 
