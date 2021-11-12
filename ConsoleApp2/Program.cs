@@ -24,6 +24,7 @@ namespace ConsoleApp2
             stopwatch.Stop();
             //test
             Console.WriteLine("running:{0}", stopwatch.Elapsed);
+            Console.WriteLine("Hello!");
         }
 
         static List<KeyValuePair<string, int>> GetFileDic(string filePath)
